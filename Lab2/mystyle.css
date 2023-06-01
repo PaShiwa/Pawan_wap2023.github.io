@@ -1,10 +1,9 @@
 body {
-    background-color: rgba(255, 255, 224, 0.29);
+    background-color: rgba(132, 132, 132, 0.571);
 }
 
-
 h3 {
-    color: royalblue;
+    color: rgb(30, 80, 229);
     font-family: 'Courier New', Courier, monospace;
     font-style: initial;
 }
@@ -19,12 +18,7 @@ a {
     width: 20%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 /* remove underline from links */
 a:link {
@@ -39,36 +33,32 @@ strong::first-line {
     color: cadetblue;
 }
 
-p#rotateText {
-    transform: rotateX(180deg);
-}
+
 
 .container {
-    padding: 0 16px;
-}
-
-.about-section {
-    padding: 10px;
-    text-align: center;
-    background-color: #474e5d;
+    display: flex;
+  }
+  
+  .image-with-text {
+    position: relative;
+  }
+  
+  .image-with-text h3,
+  .image-with-text .image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
     color: white;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-}
+  }
+  
+  .image-with-text h3 {
+    font-size: 18px;
+  }
+  
+  .image-with-text .image-description {
+    font-size: 14px;
+  }
 
-.index-section {
-    padding: 5px;
-    text-align: left;
-    background-color: #474e5d;
-    color: white;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-}
 
-footer {
-    text-align: left;
-    color: white;
-    margin: 613px auto 0 auto;
-}
+
