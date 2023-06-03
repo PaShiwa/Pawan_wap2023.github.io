@@ -1,3 +1,6 @@
+ body {
+    background-color: rgba(221, 235, 235, 0.571);
+} 
 table {
     width: 90%;
 }
@@ -11,14 +14,46 @@ td {
 
 th,
 td {
-    /* background-color: #96D4D4;*/
+    
     text-align: center;
 }
-
+tr td {
+    font-size: 16px;
+    font-weight: bold;
+}
 .total td {
     text-align: right;
 }
 
 .placeOrder {
     text-align: right;
+    text-decoration-color: cornsilk;
+
 }
+
+.color th span:nth-child(1) {
+    color: navy;
+}
+
+th h3::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+.total textarea {
+    background-color:cornsilk;
+    color: black;
+}
+/* th button {
+    background-color: rgb(1, 1, 15);
+    color: white;
+    padding: 10px;
+    border: none;
+} */
+
+/* .placeOrder {
+    background-color: rgb(1, 1, 15);;
+    color: white;
+    padding: 10px;
+    border: none;
+} */
